@@ -1,0 +1,5 @@
+node_modules
+dist
+ssl/local.key
+ssl/local.crt
+src/environment/Production.ts
