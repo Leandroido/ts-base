@@ -3,3 +3,5 @@ dist
 .vscode
 .eslintcache
 .env*
+package.json
+package-lock.json
