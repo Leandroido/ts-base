@@ -11,8 +11,6 @@ module.exports = {
     '@babel/preset-typescript'
   ],
   plugins: [
-    '@babel/plugin-transform-typescript',
-    '@babel/plugin-proposal-class-properties',
     ['module-resolver', {
       alias: {
         '@config': './src/config',
@@ -23,6 +21,6 @@ module.exports = {
     }]
   ],
   ignore: [
-    '**/*.spec.ts'
+    '**/*.test.ts'
   ]
 }

@@ -40,6 +40,6 @@
     "./src/**/*"
   ],
   "exclude": [
-    "./src/__tests__"
+    "*test*"
   ]
 }

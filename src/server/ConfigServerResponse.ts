@@ -36,8 +36,6 @@ class ConfigServerResponse {
       payload: buffer,
     };
 
-    console.log(parsedUrl);
-
     req.on('end', (): void => {
       buffer += decoder.end();
       const payloadString = JSON.stringify(data);
